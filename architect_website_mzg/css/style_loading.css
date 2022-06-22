@@ -120,7 +120,7 @@ li{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #202f3a;
+    background-color: #202f3a;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }

@@ -121,6 +121,7 @@ li{
     align-items: center;
     flex-direction: column;
     background-color: #202f3a;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }

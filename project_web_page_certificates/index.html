@@ -9,14 +9,41 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="myLinks">
-        <ul class="links">
-            <li class="link" id="webP">Web Projects</li>
-            <li class="link" id="courseraC">Coursera Certificates</li>
-            <li class="link" id="freecodecampC">FreeCodecamp Certificates</li>
-            <li class="link" id="badges">IBM Badges</li>     
+
+    <header>
+           
+        <nav>
+
+            <div class="myLinks">
+                <ul class="links">
+                    <li class="link" id="webP">Web Projects</li>
+                    <li class="link" id="datacampC">Datacamp Certificates</li>
+                    <li class="link" id="courseraC">Coursera Certificates</li>
+                    <li class="link" id="freecodecampC">FreeCodecamp Certificates</li>
+                    <li class="link" id="badges">IBM Badges</li>     
+                </ul>
+            </div>
+
+                <div class="hamburger">
+                    <span class="bar top"></span>
+                    <span class="bar middle"></span>
+                    <span class="bar bottom"></span>
+                </div>
+        </nav>
+        
+    </header>
+    <div class="openNav">
+        <ul class="nav-list">
+            <li class="nav-item nav-linkMobile" id="webP">Web Projects</li>
+            <li class="nav-item nav-linkMobile" id="datacampC">Datacamp Certificates</li>
+            <li class="nav-item nav-linkMobile" id="courseraC">Coursera Certificates</li>
+            <li class="nav-item nav-linkMobile" id="freecodecampC">FreeCodecamp Certificates</li>
+            <li class="nav-item nav-linkMobile" id="badges">IBM Badges</li>
+
         </ul>
     </div>
+
+    
     <div class="contents active" data-section="webP">
         <div class="mainTitle">Web Projects</div>
         <div class="content">
@@ -28,10 +55,19 @@
             <a href="https://neuro64.github.io/my_web_projects/portfolio_web_page_mzg/" target="_blank" class="verifyLink">Web Page Link</a>
         </div>
         <div class="content">
-            <div class="title">FreeCodeCamp Projects for certificates related to HTML,Css,Javascript and Reactjs</div>
+            <div class="title">FreeCodeCamp Projects for certificates related to <br />HTML,Css,Javascript and Reactjs</div>
             <a href="https://codepen.io/neuro64/pens/public" target="_blank" class="verifyLink">Web Pages Link</a>
         </div>
 
+    </div>
+    <div class="contents" data-section="datacampC">
+        <div class="mainTitle">Datacamp Certificates</div>
+        <div class="content">
+            <div class="title">Data Analyst Associate certificate</div>
+            <a href="https://www.datacamp.com/certificate/DAA0013174919817" target="_blank" class="verifyLink">
+                Verification Link
+            </a>
+        </div>
     </div>
     <div class="contents"  data-section="courseraC">
         <div class="mainTitle">Cousera Certificates</div>
